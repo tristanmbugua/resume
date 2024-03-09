@@ -1,0 +1,171 @@
+<!--Based off Jake's Resume-->
+<html>
+  <head>
+    <link rel="stylesheet" href="./resume.css">
+    <style>
+      
+      /* fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+      /* meta */
+      body {
+          font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+          font-size:  14px;
+      }
+
+      .spacer {
+          margin: 0px auto;
+      }
+
+      /* ordering of content */
+      h1 {
+          order: 0;
+      }
+
+      #headerInfo {
+          order: 1;
+      }
+
+      /* styling content */
+      h1, h2, h3, p, a, li {
+          color: black;
+      }
+
+      h2 {
+          margin: 10px 0px;
+      }
+
+      h3 {
+          margin: 6px 0px;
+      }
+
+      h1 {
+          color: black;
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 24px;
+          margin: 0;
+          padding: 0;
+      }
+
+      h2 {
+          border-bottom: 1px solid #000000;
+          text-transform: uppercase;
+          font-size: 16px;
+          padding: 0;
+      }
+
+      h3 {
+          display: flex;
+          font-size: 15px;
+          padding: 0;
+          justify-content: space-between;
+      }
+
+      p {
+          margin: 0;
+          padding: 0;
+      }
+
+      a {
+          color: black;
+      }
+
+      ul {
+          margin: 4px 0;
+          padding-left: 24px;
+          padding-right: 24px;
+      }
+
+      /* header info content */
+      #headerInfo > ul {
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          margin: 6px auto 0px !important;
+          padding: 0;
+      }
+
+      #headerInfo > ul > li {
+          display: inline;
+          white-space: pre;
+          list-style-type: none;
+      }
+
+      #headerInfo > ul >li:not(:last-child) {
+          margin-right: 8px;
+      }
+
+      #headerInfo > ul > li:not(:last-child):after {
+          content: "|";
+          margin-left: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="fullName">Tristan Mbugua</h1>
+      <div id = "headerInfo">
+        <ul>
+          <li>Phone Number: 4372305928</li>
+          <li>Email: tristanmbugua@gmail.com</li>
+          <li><a href="https://www.linkedin.com/in/tristan-m-7b0002239/">LinkedIn</a></li>
+          <li><a href="https://github.com/tristanmbugua">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="experienceAndProjects">
+      <h2>Experience/Projects</h2>
+      <ul>
+        <li>SneakIn - Group Project | 09/2023 - 12/2023</li>
+        <p>SneakIn is a digital sneaker inventory management system. SneakIn's functionality is hosted on a web application. This program uses the MERN stack. During the duration of this project I was not only the leader of my group of 5 but also the lead programmer. I organized and supervised my group members as they created code chunks that I would test and implement into our core program. This code can be found on <a href="https://github.com/tristanmbugua">GitHub.</a></p><br>
+        <li>FlixNet - Individual Project | 02/2024</li>
+        <p>FlixNet is a basic C# application that performs the functionality of NetFlix using the AWS Suite. Users can perform CRUD operations on videos and rate and comment on videos. Comments can also be edited. This code can be found on <a href="https://github.com/tristanmbugua">GitHub.</a></p><br>
+        <li>Husky Air - Individual Project | 03/2024</li>
+        <p>Husky Air is a Java Web Application. Husky Air uses Java Spring Boot, Thymeleaf, and MySQL to manage flight ticketing. This program includes Thymeleaf form validation. This code can be found on <a href="https://github.com/tristanmbugua">GitHub.</a></p><br>
+        
+      </ul>
+    </div>
+
+    <div id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Centennial College - Software Engineering Technology | Expected Graduation: May 2025</li>
+      </ul>
+    </div>
+    
+    <!-- <div id="projects">
+      <h2>Projects</h2>
+    </div> -->
+    
+    <div id="relevantcoursework">
+      <h2>Relevant Coursework</h2>
+      <ul>
+        <li>Data Structures and Algorithms</li>
+        <li>Advanced Database Concepts</li>
+        <li>Web Application Development</li>
+        <li>Programming 3</li>
+        <li>Software Testing and Quality</li>
+        <li>Software Systems Design</li><br >
+      </ul>
+    </div>
+    
+
+    <div id="technicalSkills">
+      <h2>Technical Skills</h2>
+      <p>
+        <b>Languages:</b> Java, C#, Javascript, HTML, CSS...
+      </p>
+      <p>
+        <b>Frameworks:</b> React, React, .NET Core, Spring...
+      </p>
+      <p>
+        <b>Developer Tools:</b> Postman, Visual Studio Code, Visual Studio, Git...
+      </p>
+      <!-- <p>
+        <b>Libraries:</b>
+      </p> -->
+    </div>
+  </body>
+</html>
